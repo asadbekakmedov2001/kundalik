@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Theme.KundalikOdob"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+    <Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:padding="10sp"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/teal_200">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:text="Kundalik odob ahloq qoidalari"/>
+    </Toolbar>
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tabTextColor="#000000"
+        app:tabMode="fixed"
+        app:tabTextAppearance="@style/Theme.KundalikOdob."
+        app:tabIndicatorColor="?attr/colorPrimary"
+        app:tabSelectedTextColor="@color/white"
+        app:tabBackground="@color/teal_200"
+        android:background="@color/teal_200"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="@dimen/fab_margin"
+            android:layout_marginBottom="16dp"
+            app:srcCompat="@android:drawable/ic_dialog_email" />
+    </RelativeLayout>
+
+
+
+
+
+
+</LinearLayout>
