@@ -62,7 +62,7 @@ public class MainActivity2 extends AppCompatActivity implements UserAdapterAC2.S
 
         //backround uchun liner layoutni aniqlash
         constraintLayout = findViewById(R.id.constraintLayout1);
-        constraintLayout.setBackgroundColor(getResources().getColor(R.color.mycolor));
+        constraintLayout.setBackgroundColor(getResources().getColor(R.color.teal_200));
 
 
         switch (getChemgeItemPosition){
