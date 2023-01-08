@@ -103,7 +103,7 @@ public class MainActivity2 extends AppCompatActivity implements UserAdapterAC2.S
 
                 textViewSelectedChapterName.setText("MAQOLLAR");
 
-                modelRcyclers.add(new ModelRcycler("Maqollardan parchalar","https://github.com/asadbekakmedov2001/ustoziga/raw/master/app/src/main/assets/maqol.pdf"));
+                modelRcyclers.add(new ModelRcycler("Maqollardan parchalar","https://github.com/asadbekakmedov2001/kundalik/raw/master/app/src/main/assets/maqol.pdf"));
                 modelRcyclers.add(new ModelRcycler("Maqollar videosi 1-qism","nSnUGpTBtpM"));
                 modelRcyclers.add(new ModelRcycler("Maqollar videosi 2-qism","0j7if_X7SRU"));
                 modelRcyclers.add(new ModelRcycler("Maqollar videosi 3-qism","YodzbYAIyMg"));
