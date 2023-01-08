@@ -115,7 +115,7 @@ public class MainActivity2 extends AppCompatActivity implements UserAdapterAC2.S
 
                 textViewSelectedChapterName.setText("TOPISHMOQLAR");
 
-                modelRcyclers.add(new ModelRcycler("Topishmoqlardan parchalar","https://github.com/asadbekakmedov2001/ustoziga/raw/master/app/src/main/assets/topishmoqlar.pdf"));
+                modelRcyclers.add(new ModelRcycler("Topishmoqlardan parchalar","https://github.com/asadbekakmedov2001/kundalik/raw/main/app/src/main/assets/topishmoqlar.pdf"));
                 modelRcyclers.add(new ModelRcycler("Topishmoqlar videosi 1-qism","gdSrRcgaPgo"));
                 modelRcyclers.add(new ModelRcycler("Topishmoqlar videosi 2-qism","LZtAjiAqtxI"));
                 modelRcyclers.add(new ModelRcycler("Topishmoqlar videosi 3-qism","odCcBaYeCqw"));
@@ -127,14 +127,14 @@ public class MainActivity2 extends AppCompatActivity implements UserAdapterAC2.S
 
                 textViewSelectedChapterName.setText("ERTAKLAR MASHG'ULOT ISHLANMALARI");
 
-                modelRcyclers.add(new ModelRcycler("12 oy ertagi","https://github.com/asadbekakmedov2001/ustoziga/raw/master/app/src/main/assets/12oy_ertagi.pdf"));
-                modelRcyclers.add(new ModelRcycler("Bog'bon ertagi","https://github.com/asadbekakmedov2001/ustoziga/raw/master/app/src/main/assets/bogbon.pdf"));
-                modelRcyclers.add(new ModelRcycler("Do'stlik ertagi","https://github.com/asadbekakmedov2001/ustoziga/raw/master/app/src/main/assets/dustlik.pdf"));
-                modelRcyclers.add(new ModelRcycler("Mehmon keldi(Sumalak)","https://github.com/asadbekakmedov2001/ustoziga/raw/master/app/src/main/assets/mehmon_keldi.pdf"));
-                modelRcyclers.add(new ModelRcycler("Non isi(Rivoyat)","https://github.com/asadbekakmedov2001/ustoziga/raw/master/app/src/main/assets/non_isi.pdf"));
-                modelRcyclers.add(new ModelRcycler("Oltin tarvuz","https://github.com/asadbekakmedov2001/ustoziga/raw/master/app/src/main/assets/oltin_tarvuz.pdf"));
-                modelRcyclers.add(new ModelRcycler("Dan xodimi (Yo‘l va bolalar) ","https://github.com/asadbekakmedov2001/ustoziga/raw/master/app/src/main/assets/yol_va_bolalar.pdf"));
-                modelRcyclers.add(new ModelRcycler("O‘zbek xalq ertagi Zumrad va Qimmat ","https://github.com/asadbekakmedov2001/ustoziga/raw/master/app/src/main/assets/zumrad_va_qimmat.pdf"));
+                modelRcyclers.add(new ModelRcycler("12 oy ertagi","https://github.com/asadbekakmedov2001/kundalik/raw/main/app/src/main/assets/12oy_ertagi.pdf"));
+                modelRcyclers.add(new ModelRcycler("Bog'bon ertagi","https://github.com/asadbekakmedov2001/kundalik/raw/main/app/src/main/assets/bogbon.pdf"));
+                modelRcyclers.add(new ModelRcycler("Do'stlik ertagi","https://github.com/asadbekakmedov2001/kundalik/raw/main/app/src/main/assets/dustlik.pdf"));
+                modelRcyclers.add(new ModelRcycler("Mehmon keldi(Sumalak)","https://github.com/asadbekakmedov2001/kundalik/raw/main/app/src/main/assets/mehmon_keldi.pdf"));
+                modelRcyclers.add(new ModelRcycler("Non isi(Rivoyat)","https://github.com/asadbekakmedov2001/kundalik/raw/main/app/src/main/assets/non_isi.pdf"));
+                modelRcyclers.add(new ModelRcycler("Oltin tarvuz","https://github.com/asadbekakmedov2001/kundalik/raw/main/app/src/main/assets/oltin_tarvuz.pdf"));
+                modelRcyclers.add(new ModelRcycler("Dan xodimi (Yo‘l va bolalar) ","https://github.com/asadbekakmedov2001/kundalik/raw/main/app/src/main/assets/yol_va_bolalar.pdf"));
+                modelRcyclers.add(new ModelRcycler("O‘zbek xalq ertagi Zumrad va Qimmat ","https://github.com/asadbekakmedov2001/kundalik/raw/main/app/src/main/assets/zumrad_va_qimmat.pdf"));
 
             }break;
 
