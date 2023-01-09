@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#A5B1F6"
+    android:background="@color/teal_200"
     tools:context=".ui.slideshow.SlideshowFragment">
 
     <androidx.cardview.widget.CardView
@@ -21,7 +21,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#7386F4"
+            android:background="@color/white"
             android:orientation="vertical"
             android:gravity="center"
             >
@@ -36,7 +36,7 @@
                     android:layout_width="150dp"
                     android:layout_height="150dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/ismailallakov"
+                    android:src="@drawable/ilova_3x4"
                     />
 
             </androidx.cardview.widget.CardView>
@@ -53,7 +53,7 @@
                     android:id="@+id/title"
                     android:textStyle="bold"
                     android:layout_margin="10dp"
-                    android:text="@string/turayev_xumoyiddin_abdug_afforovich"
+                    android:text="@string/muallif_fish"
                     android:textColor="#262626"
                     android:textSize="16sp"
 
@@ -70,7 +70,7 @@
                     android:drawablePadding="10dp"
                     android:textColor="@color/black"
                     android:justificationMode="inter_word"
-                    android:text="@string/turayev_xumoyiddin_abdug_afforovich_1991_yil_10_noyabr_kuni_surxondaryo_viloyati_denov_tmanida_tavllud_topgan"
+                    android:text="@string/muallif_haqida"
                     android:textSize="10sp"
                     tools:ignore="SmallSp" />
 
