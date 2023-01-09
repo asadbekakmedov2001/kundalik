@@ -56,22 +56,22 @@ public class UchinchiFragment extends Fragment implements UserAdapter.SelectedUs
     }
     private void initial() {
 
-        modelRcyclers.add(new ModelRcycler(R.drawable.kun_tartibi,"Kun tartibi                  ","O’quvchilarning uzoq, vaqt davomida ish qobiliyati va asab tizimi qo’zg’alishini yuqori darajada saqlashda kun davomida mehnat va dam olish vaqtlarining oqilona taqsimlanishini ta’minlay oladigan kun tartibi katta ahamiyatga ega....","k3aLpXLPIUo"));
-        modelRcyclers.add(new ModelRcycler(R.drawable.uyqudan_turmoq1,"Uyqudan turganda joylarni yig'ishtirish 1-qism                   ","...              ","9vle4HAh19E"));
-        modelRcyclers.add(new ModelRcycler(R.drawable.uyqudan_turmoq2,"Uyqudan turganda joylarni yig'ishtirish 2-qism                   ","...              ","x2O8nbq2548"));
-        modelRcyclers.add(new ModelRcycler(R.drawable.uyqudan_turmoq3,"Uyquda turganda joylarni yig'ishtirmaslik                    ","...              ","uuftnGPfCso"));
-        modelRcyclers.add(new ModelRcycler(R.drawable.badantarbiya2,"Badantarbiya                                   ","Ertalabki badantarbiya - sog`lik garovi...","eKSzB2XRmVc"));
-        modelRcyclers.add(new ModelRcycler(R.drawable.qollar1,"Qo'llarni sovunlab yuvish 1-qism                 ","...","IHjLX4mJVSU"));
-        modelRcyclers.add(new ModelRcycler(R.drawable.qollar2,"Qo'llarni sovunlab yuvish 2-qism                 ","...","335MtLDNxoU"));
-        modelRcyclers.add(new ModelRcycler(R.drawable.qollar3,"Qo'larni sovunlab yuvish 3-qism                  ","...","1e6dA-Xyl3E"));
-        modelRcyclers.add(new ModelRcycler(R.drawable.tish,"Tishlarni yuvish                        ","Tish va og'iz bo'shlig'ining gigienasi mutaxassislar tomonidan maxsus vositalar va asboblar yordamida va uyda amalga oshirilishi mumkin...","iA0XfClHDj0"));
-        modelRcyclers.add(new ModelRcycler(R.drawable.ovqat1,"To'g'ri ovqatlanish 1-qism                                ","...","6sE0Kva9qI4"));
-        modelRcyclers.add(new ModelRcycler(R.drawable.ovqat2,"To'g'ri ovqatlanish 2-qism                                ","...","SBFB4qiY1Zs"));
-        modelRcyclers.add(new ModelRcycler(R.drawable.ovqat3,"Ovqatlangandan song qo'llarni yuvish                  ","...","tU-D1vYioZk"));
-        modelRcyclers.add(new ModelRcycler(R.drawable.shax_gig1,"Shaxsiy gigiyena qoidalar 1-qism                   ","...","FJFEO1VF7JE"));
-        modelRcyclers.add(new ModelRcycler(R.drawable.shax_gig2,"Shaxsiy gigiyena qoidalar 2-qism                   ","...","lQkNBM5C89U"));
-        modelRcyclers.add(new ModelRcycler(R.drawable.shax_gig3,"Shaxsiy gigiyena qoidalar 3-qism                   ","...","iT3WHnn268A"));
-        modelRcyclers.add(new ModelRcycler(R.drawable.video1,"Uch ajoyib kichkintoy multfilm                    ","...","UI7R7-VOLLo"));
+        modelRcyclers.add(new ModelRcycler(R.drawable.kun_tartibi,"Kun tartibi                                  ","O’quvchilarning uzoq, vaqt davomida ish qobiliyati va asab tizimi qo’zg’alishini yuqori darajada saqlashda kun davomida mehnat va dam olish vaqtlarining oqilona taqsimlanishini ta’minlay oladigan kun tartibi katta ahamiyatga ega....","k3aLpXLPIUo"));
+        modelRcyclers.add(new ModelRcycler(R.drawable.uyqudan_turmoq1,"Uyqudan turganda joylarni yig'ishtirish 1-qism                                ","...              ","9vle4HAh19E"));
+        modelRcyclers.add(new ModelRcycler(R.drawable.uyqudan_turmoq2,"Uyqudan turganda joylarni yig'ishtirish 2-qism                                  ","...              ","x2O8nbq2548"));
+        modelRcyclers.add(new ModelRcycler(R.drawable.uyqudan_turmoq3,"Uyquda turganda joylarni yig'ishtirmaslik                                 ","...              ","uuftnGPfCso"));
+        modelRcyclers.add(new ModelRcycler(R.drawable.badantarbiya2,"Badantarbiya                                                 ","Ertalabki badantarbiya - sog`lik garovi...","eKSzB2XRmVc"));
+        modelRcyclers.add(new ModelRcycler(R.drawable.qollar1,"Qo'llarni sovunlab yuvish 1-qism                               ","...","IHjLX4mJVSU"));
+        modelRcyclers.add(new ModelRcycler(R.drawable.qollar2,"Qo'llarni sovunlab yuvish 2-qism                                ","...","335MtLDNxoU"));
+        modelRcyclers.add(new ModelRcycler(R.drawable.qollar3,"Qo'larni sovunlab yuvish 3-qism                                  ","...","1e6dA-Xyl3E"));
+        modelRcyclers.add(new ModelRcycler(R.drawable.tish,"Tishlarni yuvish                                            ","Tish va og'iz bo'shlig'ining gigienasi mutaxassislar tomonidan maxsus vositalar va asboblar yordamida va uyda amalga oshirilishi mumkin...","iA0XfClHDj0"));
+        modelRcyclers.add(new ModelRcycler(R.drawable.ovqat1,"To'g'ri ovqatlanish 1-qism                                              ","...","6sE0Kva9qI4"));
+        modelRcyclers.add(new ModelRcycler(R.drawable.ovqat2,"To'g'ri ovqatlanish 2-qism                                              ","...","SBFB4qiY1Zs"));
+        modelRcyclers.add(new ModelRcycler(R.drawable.ovqat3,"Ovqatlangandan song qo'llarni yuvish                                ","...","tU-D1vYioZk"));
+        modelRcyclers.add(new ModelRcycler(R.drawable.shax_gig1,"Shaxsiy gigiyena qoidalar 1-qism                                 ","...","FJFEO1VF7JE"));
+        modelRcyclers.add(new ModelRcycler(R.drawable.shax_gig2,"Shaxsiy gigiyena qoidalar 2-qism                                  ","...","lQkNBM5C89U"));
+        modelRcyclers.add(new ModelRcycler(R.drawable.shax_gig3,"Shaxsiy gigiyena qoidalar 3-qism                                   ","...","iT3WHnn268A"));
+        modelRcyclers.add(new ModelRcycler(R.drawable.video1,"Uch ajoyib kichkintoy multfilm                                  ","...","UI7R7-VOLLo"));
 
 
     }
