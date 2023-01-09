@@ -58,7 +58,7 @@ public class UchinchiFragment extends Fragment implements UserAdapter.SelectedUs
 
         modelRcyclers.add(new ModelRcycler(R.drawable.kun_tartibi,"Kun tartibi                  ","O’quvchilarning uzoq, vaqt davomida ish qobiliyati va asab tizimi qo’zg’alishini yuqori darajada saqlashda kun davomida mehnat va dam olish vaqtlarining oqilona taqsimlanishini ta’minlay oladigan kun tartibi katta ahamiyatga ega....","k3aLpXLPIUo"));
         modelRcyclers.add(new ModelRcycler(R.drawable.uyqudan_turmoq1,"Uyqudan turganda joylarni yig'ishtirish 1-qism                   ","...              ","177QxEctC1E"));
-        modelRcyclers.add(new ModelRcycler(R.drawable.uyqudan_turmoq2,"Uyqudan turganda joylarni yig'ishtirish 2-qism                   ","...              ","ydbRJsocBUU"));
+        modelRcyclers.add(new ModelRcycler(R.drawable.uyqudan_turmoq2,"Uyqudan turganda joylarni yig'ishtirish 2-qism                   ","...              ","ZfcidMSU2vQ"));
         modelRcyclers.add(new ModelRcycler(R.drawable.uyqudan_turmoq3,"Uyquda turganda joylarni yig'ishtirmaslik                    ","...              ","8LxsvWjnx_4"));
         modelRcyclers.add(new ModelRcycler(R.drawable.badantarbiya2,"Badantarbiya                                   ","Ertalabki badantarbiya - sog`lik garovi...","eKSzB2XRmVc"));
         modelRcyclers.add(new ModelRcycler(R.drawable.qollar1,"Qo'llarni sovunlab yuvish 1-qism                 ","...","P5yoZTTMqv0"));
