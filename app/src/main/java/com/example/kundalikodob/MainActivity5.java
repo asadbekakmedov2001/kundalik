@@ -77,7 +77,7 @@ public class MainActivity5 extends AppCompatActivity implements UserAdapterAC2.S
                 modelRcyclers.add(new ModelRcycler("Shafyorga yo'l haqini berish odobi 5-odob","https://github.com/asadbekakmedov2001/kundalik/raw/main/app/src/main/assets/odob5.pdf"));
                 modelRcyclers.add(new ModelRcycler("Tartib bilan shafyorga yo'l haqini berish odobi 6-odob","https://github.com/asadbekakmedov2001/kundalik/raw/main/app/src/main/assets/odob6.pdf"));
                 modelRcyclers.add(new ModelRcycler("Avtobusda harakatlanish 7-odob","https://github.com/asadbekakmedov2001/kundalik/raw/main/app/src/main/assets/odob7.pdf"));
-                modelRcyclers.add(new ModelRcycler("Abtobusda harakatlanish 8-odob","https://github.com/asadbekakmedov2001/kundalik/raw/main/app/src/main/assets/odob8.pdf"));
+                modelRcyclers.add(new ModelRcycler("Avtobusda harakatlanish 8-odob","https://github.com/asadbekakmedov2001/kundalik/raw/main/app/src/main/assets/odob8.pdf"));
 
 
             }break;
@@ -99,7 +99,7 @@ public class MainActivity5 extends AppCompatActivity implements UserAdapterAC2.S
                 textViewSelectedChapterName.setText("Do'stiga yordam berish odobi");
 
                 modelRcyclers.add(new ModelRcycler("Do'stiga yordam berish odobi 1-qism","https://github.com/asadbekakmedov2001/kundalik/raw/main/app/src/main/assets/dust1.pdf"));
-                modelRcyclers.add(new ModelRcycler("Do'stiga yordam berish odobi 2-qism","https://github.com/asadbekakmedov2001/kundalik/raw/main/app/src/main/assets/dus2.pdf"));
+                modelRcyclers.add(new ModelRcycler("Do'stiga yordam berish odobi 2-qism","https://github.com/asadbekakmedov2001/kundalik/raw/main/app/src/main/assets/dust2.pdf"));
 
 
 
