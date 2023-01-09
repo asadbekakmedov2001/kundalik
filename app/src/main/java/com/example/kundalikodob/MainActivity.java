@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://t.me/AkhMeDoV_AsAdBeK"));
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://t.me/shoxistadaminova"));
                 startActivity(intent);
             }
         });
