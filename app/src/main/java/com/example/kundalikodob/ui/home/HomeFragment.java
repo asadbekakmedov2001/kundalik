@@ -59,7 +59,7 @@ public class HomeFragment extends Fragment implements UserAdapter.SelectedUser {
         modelRcyclers.add(new ModelRcycler(R.drawable.ertak,"Ertaklar               ","Bolajonlar uchun barcha mavzularga doir eng sara, qiziqarli, ibratli o'zbek xalq ertaklari...",""));
         modelRcyclers.add(new ModelRcycler(R.drawable.hikoyalar,"Hikoyalar              ","Barcha mavzularga oid eng sara ibratli hikoyalar...",""));
         modelRcyclers.add(new ModelRcycler(R.drawable.maqol,"Maqollar               ","Barcha mavzularga oid eng sara o'zbek va jahon maqollari...",""));
-        modelRcyclers.add(new ModelRcycler(R.drawable.tez_aytish,"Tez aytishlar             ","Xalq ogʻzaki ijodi turlaridan biri boʻlmish tez aytish ayrim nutq tovushlarining koʻp qaytarilishi yoki tovushlarning soʻz va iboralar tarkibida talaffuzni qiyinlashtiradigan darajada murakkab joylashishiga asoslanadi... ","https://github.com/asadbekakmedov2001/ustoziga/raw/master/app/src/main/assets/tez_aytishlar.pdf"));
+        modelRcyclers.add(new ModelRcycler(R.drawable.tez_aytish,"Tez aytishlar             ","Xalq ogʻzaki ijodi turlaridan biri boʻlmish tez aytish ayrim nutq tovushlarining koʻp qaytarilishi yoki tovushlarning soʻz va iboralar tarkibida talaffuzni qiyinlashtiradigan darajada murakkab joylashishiga asoslanadi... ","https://github.com/asadbekakmedov2001/kundalik/raw/main/app/src/main/assets/tez_aytishlar.pdf"));
         modelRcyclers.add(new ModelRcycler(R.drawable.topishmoq,"Topishmoqlar               ","Barcha mavzularga oid eng sara topishmoqlar javobi bilan...",""));
         modelRcyclers.add(new ModelRcycler(R.drawable.beshbob,"Ertaklar mashg'ulot ishlanmalari             ","",""));
 
@@ -74,8 +74,7 @@ public class HomeFragment extends Fragment implements UserAdapter.SelectedUser {
     @Override
     public void selectedUser(ModelRcycler modelRcycler) {
 
-        if (modelRcycler.getTextName().toLowerCase().startsWith("xalq") ||
-                modelRcycler.getLessonName().toLowerCase().startsWith("pers") ||
+        if (    modelRcycler.getLessonName().toLowerCase().startsWith("pers") ||
                 modelRcycler.getLessonName().toLowerCase().startsWith("adabiyot")
         ){
 //
