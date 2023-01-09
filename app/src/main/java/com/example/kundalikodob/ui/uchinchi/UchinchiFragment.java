@@ -57,15 +57,14 @@ public class UchinchiFragment extends Fragment implements UserAdapter.SelectedUs
     private void initial() {
 
         modelRcyclers.add(new ModelRcycler(R.drawable.kun_tartibi,"Kun tartibi                  ","O’quvchilarning uzoq, vaqt davomida ish qobiliyati va asab tizimi qo’zg’alishini yuqori darajada saqlashda kun davomida mehnat va dam olish vaqtlarining oqilona taqsimlanishini ta’minlay oladigan kun tartibi katta ahamiyatga ega....","k3aLpXLPIUo"));
-        modelRcyclers.add(new ModelRcycler(R.drawable.badantarbiya1,"Badantarbiya 1-qism                    ","Badantarbiya - sog‘liqni saqlashda ulug‘vor usuldir...","baycBTUYnaQ"));
-        modelRcyclers.add(new ModelRcycler(R.drawable.badantarbiya2,"Badantarbiya 2-qism                    ","Ertalabki badantarbiya - sog`lik garovi...","kbaJ3dbtzv0"));
         modelRcyclers.add(new ModelRcycler(R.drawable.uyqudan_turmoq1,"Uyqudan turganda joylarni yig'ishtirish 1-qism                   ","...              ","177QxEctC1E"));
         modelRcyclers.add(new ModelRcycler(R.drawable.uyqudan_turmoq2,"Uyqudan turganda joylarni yig'ishtirish 2-qism                   ","...              ","ydbRJsocBUU"));
         modelRcyclers.add(new ModelRcycler(R.drawable.uyqudan_turmoq3,"Uyquda turganda joylarni yig'ishtirmaslik                    ","...              ","8LxsvWjnx_4"));
+        modelRcyclers.add(new ModelRcycler(R.drawable.badantarbiya2,"Badantarbiya                                   ","Ertalabki badantarbiya - sog`lik garovi...","eKSzB2XRmVc"));
         modelRcyclers.add(new ModelRcycler(R.drawable.qollar1,"Qo'llarni sovunlab yuvish 1-qism                 ","...","P5yoZTTMqv0"));
         modelRcyclers.add(new ModelRcycler(R.drawable.qollar2,"Qo'llarni sovunlab yuvish 2-qism                 ","...","Zeh-CMRw8DY"));
         modelRcyclers.add(new ModelRcycler(R.drawable.qollar3,"Qo'larni sovunlab yuvish 3-qism                  ","...","O4a76IEJB7A"));
-        modelRcyclers.add(new ModelRcycler(R.drawable.tish,"Tishlarni yuvish                    ","Tish va og'iz bo'shlig'ining gigienasi mutaxassislar tomonidan maxsus vositalar va asboblar yordamida va uyda amalga oshirilishi mumkin...","iA0XfClHDj0"));
+        modelRcyclers.add(new ModelRcycler(R.drawable.tish,"Tishlarni yuvish                        ","Tish va og'iz bo'shlig'ining gigienasi mutaxassislar tomonidan maxsus vositalar va asboblar yordamida va uyda amalga oshirilishi mumkin...","iA0XfClHDj0"));
         modelRcyclers.add(new ModelRcycler(R.drawable.ovqat1,"To'g'ri ovqatlanish 1-qism                                ","...","6sE0Kva9qI4"));
         modelRcyclers.add(new ModelRcycler(R.drawable.ovqat2,"To'g'ri ovqatlanish 2-qism                                ","...","IQLtdlSoOvg"));
         modelRcyclers.add(new ModelRcycler(R.drawable.ovqat3,"Ovqatlangandan song qo'llarni yuvish                  ","...","2MNIaB_14Tc"));
