@@ -127,7 +127,7 @@ public class MainActivity2 extends AppCompatActivity implements UserAdapterAC2.S
 
                 textViewSelectedChapterName.setText("ERTAKLAR MASHG'ULOT ISHLANMALARI");
 
-                modelRcyclers.add(new ModelRcycler("12 oy ertagi","https://github.com/asadbekakmedov2001/kundalik/raw/main/app/src/main/assets/12oy_ertagi.pdf"));
+                modelRcyclers.add(new ModelRcycler("O'n ikki oy ertagi","https://github.com/asadbekakmedov2001/kundalik/raw/main/app/src/main/assets/12oy_ertagi.pdf"));
                 modelRcyclers.add(new ModelRcycler("Bog'bon ertagi","https://github.com/asadbekakmedov2001/kundalik/raw/main/app/src/main/assets/bogbon.pdf"));
                 modelRcyclers.add(new ModelRcycler("Do'stlik ertagi","https://github.com/asadbekakmedov2001/kundalik/raw/main/app/src/main/assets/dustlik.pdf"));
                 modelRcyclers.add(new ModelRcycler("Mehmon keldi(Sumalak)","https://github.com/asadbekakmedov2001/kundalik/raw/main/app/src/main/assets/mehmon_keldi.pdf"));
@@ -157,6 +157,7 @@ public class MainActivity2 extends AppCompatActivity implements UserAdapterAC2.S
     public void selectedUser(ModelRcycler modelRcycler) {
         if (modelRcycler.getLessonName().toLowerCase().startsWith("maqollardan") ||
                 modelRcycler.getLessonName().toLowerCase().startsWith("topishmoqlardan") ||
+                modelRcycler.getLessonName().toLowerCase().startsWith("o'n") ||
                 modelRcycler.getLessonName().toLowerCase().startsWith("12oy")||
         modelRcycler.getLessonName().toLowerCase().startsWith("bog'bon") ||
                 modelRcycler.getLessonName().toLowerCase().startsWith("do'stlik")||
