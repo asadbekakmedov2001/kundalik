@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
             "Badiiy adabiyotlar",
             "Odob axloq qoidalari",
             "Shaxsiy gigiyenik talablar",
-            "Ilova haqida"
+            "Muallif haqida"
 
     };
 
