@@ -93,7 +93,7 @@ public class MainActivity2 extends AppCompatActivity implements UserAdapterAC2.S
                 modelRcyclers.add(new ModelRcycler("Onangizni qadrlang multfilm","S1djLvuIlhI"));
                 modelRcyclers.add(new ModelRcycler("To'g'rivoy bilan Egrivoy multfilm","KYofXUmAFCo"));
                 modelRcyclers.add(new ModelRcycler("Uddaburon shogird multfilm","aZEkG6BPleY"));
-                modelRcyclers.add(new ModelRcycler("Umid tabassumi Ayblashga shoshilmang","Ef1uNOKbsVI"));
+                //modelRcyclers.add(new ModelRcycler("Umid tabassumi Ayblashga shoshilmang","Ef1uNOKbsVI"));
                 modelRcyclers.add(new ModelRcycler("Umid tabassumi Yaqinlaringizni qadrlang","CPb8zevf4Gc"));
                 modelRcyclers.add(new ModelRcycler("Umid tabassumi Ona mehri","IssCGlJzpQw"));
 
