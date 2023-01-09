@@ -59,11 +59,11 @@ public class GalleryFragment extends Fragment implements UserAdapter.SelectedUse
     }
     private void initial() {
 
-        modelRcyclers.add(new ModelRcycler(R.drawable.avtobusdagi_odob,"Bolajonlarni Avtobusda kattalarga xurmat odobi                  ","Agar siz avtobusda yoki metroda bo'lsangiz va buvisi yoki sumkali ayol yaqinida turganda, uni o'z o'rningizga o'tirishga taklif qilishingiz kerak...",""));
-        modelRcyclers.add(new ModelRcycler(R.drawable.muzey,"Bolalarni Muzey va badiiy adabiyotlar bilan tanishtirish                   ","Odob - bu sehrli qoidalar bu sizga odobli, xushmuomala va do'stona inson bo'lishingizga yordam beradi...",""));
-        modelRcyclers.add(new ModelRcycler(R.drawable.dost,"Do'stiga yordam berish odobi                ","Qoidalar do'stlik siz bilan do'st bo'lishdan va bo'sh vaqtlarini o'tkazishdan xursand bo'ladigan ko'plab do'stlar orttirishga yordam beradi...",""));
-        modelRcyclers.add(new ModelRcycler(R.drawable.kattalarni,"Kattalarni xurmat qilish odobi                ","Aziz bolajonlar! Siz, albatta, bobo-buvilaringizni, ota-onangizni, aka-opalaringizni, umuman, yoshi kattalarni hurmat qilish zarur ekanini bilasiz. Bu ishingiz tahsinga loyiq...",""));
-        modelRcyclers.add(new ModelRcycler(R.drawable.salomlashish,"Salomlashish odobi                                      ","Qoidalar salomlashish o'rganishda juda muhim qadamdir odob-axloq qoidalari. Axir, tanish odam bilan uchrashganda birinchi qiladigan ishimiz - u bilan salomlashishdir...",""));
+        modelRcyclers.add(new ModelRcycler(R.drawable.avtobusdagi_odob,"Bolajonlarni Avtobusda kattalarga xurmat odobi                               ","Agar siz avtobusda yoki metroda bo'lsangiz va buvisi yoki sumkali ayol yaqinida turganda, uni o'z o'rningizga o'tirishga taklif qilishingiz kerak...",""));
+        modelRcyclers.add(new ModelRcycler(R.drawable.muzey,"Bolalarni Muzey va badiiy adabiyotlar bilan tanishtirish                                ","Odob - bu sehrli qoidalar bu sizga odobli, xushmuomala va do'stona inson bo'lishingizga yordam beradi...",""));
+        modelRcyclers.add(new ModelRcycler(R.drawable.dost,"Do'stiga yordam berish odobi                                ","Qoidalar do'stlik siz bilan do'st bo'lishdan va bo'sh vaqtlarini o'tkazishdan xursand bo'ladigan ko'plab do'stlar orttirishga yordam beradi...",""));
+        modelRcyclers.add(new ModelRcycler(R.drawable.kattalarni,"Kattalarni xurmat qilish odobi                                ","Aziz bolajonlar! Siz, albatta, bobo-buvilaringizni, ota-onangizni, aka-opalaringizni, umuman, yoshi kattalarni hurmat qilish zarur ekanini bilasiz. Bu ishingiz tahsinga loyiq...",""));
+        modelRcyclers.add(new ModelRcycler(R.drawable.salomlashish,"Salomlashish odobi                                                    ","Qoidalar salomlashish o'rganishda juda muhim qadamdir odob-axloq qoidalari. Axir, tanish odam bilan uchrashganda birinchi qiladigan ishimiz - u bilan salomlashishdir...",""));
 
     }
 
