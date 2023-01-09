@@ -74,7 +74,7 @@ public class HomeFragment extends Fragment implements UserAdapter.SelectedUser {
     @Override
     public void selectedUser(ModelRcycler modelRcycler) {
 
-        if (    modelRcycler.getLessonName().toLowerCase().startsWith("pers") ||
+        if (    modelRcycler.getLessonName().toLowerCase().startsWith("tez") ||
                 modelRcycler.getLessonName().toLowerCase().startsWith("adabiyot")
         ){
 //
