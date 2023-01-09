@@ -118,8 +118,8 @@ public class MainActivity5 extends AppCompatActivity implements UserAdapterAC2.S
 
                 textViewSelectedChapterName.setText("Salomlashish odobi");
 
-                modelRcyclers.add(new ModelRcycler("Salomlashish odobi 1-qism","kc72xPN0Hmk"));
-                modelRcyclers.add(new ModelRcycler("Salomlashish odobi 2-qism","kc72xPN0Hmk"));
+                modelRcyclers.add(new ModelRcycler("Salomlashish odobi","2kPygC4KMQw"));
+                modelRcyclers.add(new ModelRcycler("Uch ajoyib kichkintoy - Salomlashish (multfilm)","POa-vxTa-7g"));
 
             }break;
 
