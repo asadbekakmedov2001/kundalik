@@ -104,9 +104,9 @@ public class MainActivity2 extends AppCompatActivity implements UserAdapterAC2.S
                 textViewSelectedChapterName.setText("MAQOLLAR");
 
                 modelRcyclers.add(new ModelRcycler("Maqollardan parchalar","https://github.com/asadbekakmedov2001/kundalik/raw/main/app/src/main/assets/maqol.pdf"));
-                modelRcyclers.add(new ModelRcycler("Maqollar videosi 1-qism","nSnUGpTBtpM"));
-                modelRcyclers.add(new ModelRcycler("Maqollar videosi 2-qism","0j7if_X7SRU"));
-                modelRcyclers.add(new ModelRcycler("Maqollar videosi 3-qism","YodzbYAIyMg"));
+                modelRcyclers.add(new ModelRcycler("Maqollar videosi 1-qism","yUQLm-s3BaY"));
+                modelRcyclers.add(new ModelRcycler("Maqollar videosi 2-qism","-nstRZ0ED08"));
+                modelRcyclers.add(new ModelRcycler("Maqollar videosi 3-qism","6dtpU_1OtjY"));
 
 
             }break;
@@ -114,13 +114,26 @@ public class MainActivity2 extends AppCompatActivity implements UserAdapterAC2.S
 
                 textViewSelectedChapterName.setText("TEZ AYTISHLAR");
 
-                modelRcyclers.add(new ModelRcycler("Maqollardan parchalar","https://github.com/asadbekakmedov2001/kundalik/raw/main/app/src/main/assets/maqol.pdf"));
-                modelRcyclers.add(new ModelRcycler("Maqollar videosi 1-qism","nSnUGpTBtpM"));
-                modelRcyclers.add(new ModelRcycler("Maqollar videosi 2-qism","0j7if_X7SRU"));
-                modelRcyclers.add(new ModelRcycler("Maqollar videosi 3-qism","YodzbYAIyMg"));
-
+                modelRcyclers.add(new ModelRcycler("Tez aytishlar parchalar","https://github.com/asadbekakmedov2001/kundalik/raw/main/app/src/main/assets/tez_aytishlar.pdf"));
+                modelRcyclers.add(new ModelRcycler("1-tez aytish","SvjJzr5LyRM"));
+                modelRcyclers.add(new ModelRcycler("2-tez aytish","0g5lDzbgtFk"));
+                modelRcyclers.add(new ModelRcycler("3-tez aytish","TDmPqPJwnOs"));
+                modelRcyclers.add(new ModelRcycler("4-tez aytish","_AF1F8zDthw"));
+                modelRcyclers.add(new ModelRcycler("5-tez aytish","hpAKJAsyTno"));
+                modelRcyclers.add(new ModelRcycler("6-tez aytish","LqV3XzpoBpk"));
+                modelRcyclers.add(new ModelRcycler("7-tez aytish","lAlJVAW8EGU"));
+                modelRcyclers.add(new ModelRcycler("8-tez aytish","5psTdY8WELc"));
+                modelRcyclers.add(new ModelRcycler("9-tez aytish","9lfYUaYs9fc"));
+                modelRcyclers.add(new ModelRcycler("10-tez aytish","t4RpAHi0-lo"));
+                modelRcyclers.add(new ModelRcycler("11-tez aytish","lc6pa2ulGpE"));
+                modelRcyclers.add(new ModelRcycler("12-tez aytish","Q9RuN61sJi4"));
+                modelRcyclers.add(new ModelRcycler("13-tez aytish","06EP2Kfmj3Y"));
+                modelRcyclers.add(new ModelRcycler("14-tez aytish","m55LXYHZtjQ"));
+                modelRcyclers.add(new ModelRcycler("15-tez aytish","EonjZ43Ju_A"));
+                modelRcyclers.add(new ModelRcycler("16-tez aytish","2nfTINrMBOw"));
 
             }break;
+
 
             case 4: {
 
@@ -176,6 +189,7 @@ public class MainActivity2 extends AppCompatActivity implements UserAdapterAC2.S
                 modelRcycler.getLessonName().toLowerCase().startsWith("non")||
         modelRcycler.getLessonName().toLowerCase().startsWith("oltin") ||
                 modelRcycler.getLessonName().toLowerCase().startsWith("dan")||
+                modelRcycler.getLessonName().toLowerCase().startsWith("tez")||
                 modelRcycler.getLessonName().toLowerCase().startsWith("o‘zbek")
         ){
 //
